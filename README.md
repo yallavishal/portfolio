@@ -1,12 +1,52 @@
-# React + Vite
+# 🌐 Mohan Sai Venkat – Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a **personal portfolio website** built using **ReactJS**, **TailwindCSS**, and various libraries like SwiperJS, React Icons, and more. It showcases my **projects, skills, education, certifications, and extracurriculars** in a sleek, responsive, and theme-aware layout (light/dark mode).
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🎨 Light/Dark mode toggle
+- 📱 Fully responsive for all device sizes
+- 🧠 Sections: Hero, About, Projects, Skills, Education, Certifications, Contact
+- 🖼 SwiperJS-powered image carousels
+- 🧩 Reusable React components
+- 🌙 Dark mode persistence using local storage
+- 🧾 Clean and modular code structure
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend**: ReactJS
+- **Styling**: TailwindCSS
+- **Icons**: React Icons
+- **Swiper**: SwiperJS (for sliders)
+- **Deployment**: GitHub Pages / Netlify / Vercel *(choose your deployment platform)*
+
+## 📁 Folder Structure
+src/
+├── assets/              # Images and static assets
+├── components/          # All reusable components
+│   ├── Header.jsx
+│   ├── Hero.jsx
+│   ├── Projects.jsx
+│   ├── Skills.jsx
+│   ├── Education.jsx
+│   ├── Certifications.jsx
+│   ├── Extracurriculars.jsx
+│   ├── Contact.jsx
+│   └── Footer.jsx
+├── App.jsx              # Root component
+├── index.css            # Tailwind styles
+└── main.jsx             # React DOM entry point
+
+## ⚙️ Getting Started
+
+### Prerequisites
+
+- Node.js >= 14.x
+- npm or yarn
+
+### Installation
+```bash
+git clone https://github.com/mohansaivenkat/portfolio.git
+cd portfolio
+npm install
+npm run dev
