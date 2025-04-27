@@ -12,20 +12,7 @@ import volunteer1 from '../assets/volunteer1.jpeg'
 import volunteer2 from '../assets/volunteer2.jpeg'
 
 const extracurriculars = [
-    {
-        title: 'Tech Webinars on AI/ML',
-        description:
-            'Attended multiple tech webinars, expanding knowledge in AI/ML and other emerging technologies.',
-        images: [webinar1, webinar2, webinar3],
-        tag: 'Webinars',
-    },
-    {
-        title: 'DSA Practice',
-        description:
-            'Solved 100+ DSA problems on LeetCode and GeeksforGeeks, strengthening problem-solving skills.',
-        images: [dsa1, dsa2],
-        tag: 'Problem Solving',
-    },
+   
     {
         title: 'Volunteering at Spandana Cheyutha Foundation (NGO)',
         description:
@@ -42,7 +29,7 @@ const Extracurriculars = () => {
                 <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-800 dark:text-white mb-12">
                     Extracurriculars
                 </h2>
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div className="justify-center grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-1 gap-8">
                     {extracurriculars.map((item, index) => (
                         <div
                             key={index}

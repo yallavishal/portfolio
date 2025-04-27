@@ -8,7 +8,7 @@ const Header = ({ toggleDarkMode, isDark }) => {
     <header className="flex justify-between items-center px-6 py-4 bg-white dark:bg-gray-900 shadow-md sticky top-0 z-50 transition-colors duration-500 ease-in-out">
       {/* Logo */}
       <div className="text-xl md:text-2xl font-bold text-gray-800 dark:text-white transition-colors duration-500">
-        Mohan Sai Venkat<span className="text-blue-500"> .</span>
+        Vishal Yalla <span className="text-blue-500"> .</span>
       </div>
 
       {/* Desktop Navigation */}

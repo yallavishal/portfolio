@@ -29,15 +29,7 @@ const projects = [
     code: 'https://github.com/mohansaivenkat/Skribb',
     images: [skribb1, skribb2, skribb3],
   },
-  {
-    title: 'Breezy - CI/CD Dockerized Weather App',
-    description:
-      'Set up CI/CD with Jenkins and Docker. Pulled code from GitHub and auto-deployed on push.',
-    tech: 'Jenkins, GitHub, Node, Docker, EC2/MacOS',
-    live: 'https://breezy-nu.vercel.app/',
-    code: 'https://github.com/mohansaivenkat/BreezyCICD',
-    images: [breezy1, breezy2, breezy3],
-  },
+
   {
     title: 'LassiKars - Meme-Based Concept Website',
     description:

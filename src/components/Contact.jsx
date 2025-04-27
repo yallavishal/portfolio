@@ -19,14 +19,14 @@ const Contact = () => {
                 icon: <FaEnvelope className="text-2xl text-blue-600 dark:text-blue-400" />,
                 bg: 'bg-blue-100 dark:bg-blue-900',
                 label: 'Email',
-                value: 'mohansaivenkat2004@gmail.com',
-                href: 'mailto:mohansaivenkat04@gmail.com',
+                value: 'yallavishal10@gmail.com',
+                href: 'mailto:yallavishal10@gmail.com',
               },
               {
                 icon: <FaPhone className="text-2xl text-green-600 dark:text-green-400" />,
                 bg: 'bg-green-100 dark:bg-green-900',
                 label: 'Phone',
-                value: '+91 9014167264',
+                value: '+91 9381360709',
                 href: 'tel:+919876543210',
               },
               {
@@ -40,15 +40,15 @@ const Contact = () => {
                 icon: <FaGithub className="text-2xl text-gray-800 dark:text-gray-200" />,
                 bg: 'bg-gray-100 dark:bg-gray-700',
                 label: 'GitHub',
-                value: 'mohansaivenkat',
-                href: 'https://github.com/mohansaivenkat',
+                value: 'Vishal Yalla',
+                href: 'https://github.com/yallavishal',
               },
               {
                 icon: <FaLinkedin className="text-2xl text-blue-600 dark:text-blue-400" />,
                 bg: 'bg-blue-100 dark:bg-blue-900',
                 label: 'LinkedIn',
-                value: 'mohansaivenkat',
-                href: 'https://linkedin.com/in/mohansaivenkat',
+                value: 'Vishal Yalla',
+                href: 'www.linkedin.com/in/yalla-vishal10',
               },
             ].map((item, index) => (
               <div

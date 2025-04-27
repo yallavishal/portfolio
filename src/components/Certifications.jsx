@@ -14,19 +14,19 @@ const certifications = [
 
   },
   {
-    title: 'DevOps & Software Engineering',
-    provider: 'IBM via Coursera',
-    duration: 'Aug, 2024 - Nov, 2024',
-    link: 'https://www.coursera.org/account/accomplishments/professional-cert/ZZNN6FALNU4L',
+    title: 'Programming using C++ Certificate',
+    provider: 'CipherSchools',
+    duration: 'May, 2024 - July, 2024',
+    link: 'https://www.cipherschools.com/certificate/preview?id=66a76d5ed15c5abc1ea65f46',
     icon: <VscAzureDevops className="text-2xl text-purple-500" />,
     image: certificate2,
 
   },
   {
-    title: 'Full Stack Web Development (MERN)',
+    title: 'DSA Training Certificate',
     provider: 'CipherSchools',
     duration: 'May, 2024 - July, 2024',
-    link: 'https://www.cipherschools.com/certificate/preview?id=66a6b75a938f3ef9dda7b666',
+    link: 'https://www.cipherschools.com/certificate/preview?id=66a9107a60e87d863c8fd7d4',
     icon: <FaCode className="text-2xl text-pink-500" />,
     image: certificate3,
 
